@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+{% for x in event %}
+
+    {{ x.url.url }}
+    {{ x.title }}
+    {{ x.datetime }}
+    {{ x.location }}
+
+{% endfor  %}
+
+
+</body>
+</html>
